@@ -7,8 +7,7 @@ gem 'puma', '~> 3.0'
 gem 'prmd'
 gem 'active_model_serializers', '~> 0.9.0'
 gem 'rack-json_schema'
-
-# gem 'jbuilder', '~> 2.5'
+gem 'jbuilder', '~> 2.5'
 group :development, :test do
   # for DEBUG
   gem 'pry'
@@ -20,6 +19,7 @@ group :development, :test do
   gem 'hirb'
   gem 'hirb-unicode'
 
+  gem 'rspec'
   gem 'rspec-rails'
   gem 'simplecov', require: false
   gem 'spring-commands-rspec'
